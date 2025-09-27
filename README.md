@@ -17,7 +17,7 @@ normalizada de SQL Server.
 -   [Uso del Sistema](#uso-del-sistema)
 -   [Diagrama de Entidad-Relación](#diagrama-de-entidad-relación)
 
-## 🎯 Resumen del Proyecto
+## Resumen del Proyecto
 
 Este proyecto implementa un sistema integral de análisis de ventas que
 centraliza datos de diversas fuentes incluyendo ventas directas,
@@ -189,7 +189,7 @@ cuenta registros en cada tabla - Vista previa: muestra primeros
 registros - Análisis simples: ejecuta consultas con `JOIN` y funciones
 de agregación
 
-## 📊 Estructura de Datos CSV
+## Estructura de Datos CSV
 
 Los archivos CSV deben tener las siguientes columnas:
 
@@ -227,18 +227,8 @@ Los archivos CSV deben tener las siguientes columnas:
 4.  **Análisis:** Ejecuta consultas personalizadas para obtener insights
     de los datos
 
-## 🔗 Diagrama de Entidad-Relación
+## Diagrama de Entidad-Relación
 
 El diagrama ER muestra las relaciones entre las tablas del sistema. La
 tabla `fuentes` actúa como tabla central que normaliza el origen de los
 datos para las demás tablas transaccionales.
-
-------------------------------------------------------------------------
-
-## Contribuciones
-
-Las contribuciones son bienvenidas. Por favor: 1. Haz fork del
-repositorio 2. Crea una rama para tu feature
-(`git checkout -b feature/AmazingFeature`) 3. Commit tus cambios
-(`git commit -m 'Add some AmazingFeature'`) 4. Push a la rama
-(`git push origin feature/AmazingFeature`) 5. Abre un Pull Request
